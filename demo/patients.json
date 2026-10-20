@@ -1,0 +1,489 @@
+{
+ "patients": [
+  {
+   "key": "A1",
+   "archetype": "Poorly controlled, not on insulin",
+   "source_index": 76,
+   "ehr": {
+    "age": 51.0,
+    "bmi": 28.399999618530273,
+    "hba1c": 7.099999904632568,
+    "glucose": 111.80000305175781,
+    "sbp": 127.0,
+    "dbp": 93.0,
+    "chol_total": 223.5,
+    "triglycerides": 169.8000030517578,
+    "hdl": 51.599998474121094,
+    "ldl": 138.0,
+    "years_since_dx": 1.399999976158142,
+    "hypertension": 1.0,
+    "ckd": 0.0,
+    "retinopathy": 0.0,
+    "neuropathy": 0.0,
+    "obesity": 1.0,
+    "cvd": 1.0,
+    "metformin_active": 0.0,
+    "insulin_active": 0.0,
+    "prs": 1.5429999828338623,
+    "male": 1.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "blended": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    }
+   },
+   "window": {
+    "episodes": 28,
+    "time_in_range": 0.5709969788519638,
+    "mean_cgm": 180.927490234375,
+    "weekday_of_first_day": 6
+   },
+   "sim_params": {
+    "si_true": 0.5383446832252158,
+    "bcell": 0.819,
+    "metformin_hgo_reduction": 0.0,
+    "k_gut": 0.0331927933974093,
+    "dawn_amp": 18.1
+   },
+   "resim_mae_mgdl": 1.133812838816084e-05
+  },
+  {
+   "key": "A2",
+   "archetype": "Poorly controlled, not on insulin",
+   "source_index": 408,
+   "ehr": {
+    "age": 57.400001525878906,
+    "bmi": 35.099998474121094,
+    "hba1c": 7.300000190734863,
+    "glucose": 108.0999984741211,
+    "sbp": 110.0,
+    "dbp": 49.0,
+    "chol_total": 203.1999969482422,
+    "triglycerides": 157.0,
+    "hdl": 45.0,
+    "ldl": 126.80000305175781,
+    "years_since_dx": 26.200000762939453,
+    "hypertension": 1.0,
+    "ckd": 0.0,
+    "retinopathy": 1.0,
+    "neuropathy": 0.0,
+    "obesity": 1.0,
+    "cvd": 1.0,
+    "metformin_active": 1.0,
+    "insulin_active": 0.0,
+    "prs": -0.28200000524520874,
+    "male": 1.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "blended": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    }
+   },
+   "window": {
+    "episodes": 22,
+    "time_in_range": 0.5631951466127402,
+    "mean_cgm": 182.40394592285156,
+    "weekday_of_first_day": 4
+   },
+   "sim_params": {
+    "si_true": 0.2944761855207591,
+    "bcell": 0.264,
+    "metformin_hgo_reduction": 0.15,
+    "k_gut": 0.0270161485119774,
+    "dawn_amp": 3.4
+   },
+   "resim_mae_mgdl": 9.529174349154346e-06
+  },
+  {
+   "key": "A3",
+   "archetype": "Poorly controlled, not on insulin",
+   "source_index": 8,
+   "ehr": {
+    "age": 71.30000305175781,
+    "bmi": 30.299999237060547,
+    "hba1c": 7.599999904632568,
+    "glucose": 84.69999694824219,
+    "sbp": 112.0,
+    "dbp": 72.0,
+    "chol_total": 186.39999389648438,
+    "triglycerides": 126.0,
+    "hdl": 58.0,
+    "ldl": 103.30000305175781,
+    "years_since_dx": 0.800000011920929,
+    "hypertension": 1.0,
+    "ckd": 0.0,
+    "retinopathy": 0.0,
+    "neuropathy": 0.0,
+    "obesity": 1.0,
+    "cvd": 0.0,
+    "metformin_active": 1.0,
+    "insulin_active": 0.0,
+    "prs": -0.008999999612569809,
+    "male": 0.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.6542913317680359,
+     "fpr_5": 0.6326466798782349,
+     "fpr_10": 0.5912567377090454
+    },
+    "blended": {
+     "fpr_2": 0.5740866214036942,
+     "fpr_5": 0.5202402323484421,
+     "fpr_10": 0.45630718767642975
+    }
+   },
+   "window": {
+    "episodes": 27,
+    "time_in_range": 0.6259659969088099,
+    "mean_cgm": 176.051513671875,
+    "weekday_of_first_day": 5
+   },
+   "sim_params": {
+    "si_true": 0.3730441109842363,
+    "bcell": 0.948,
+    "metformin_hgo_reduction": 0.15,
+    "k_gut": 0.0418191424655413,
+    "dawn_amp": 13.4
+   },
+   "resim_mae_mgdl": 1.9981748664577026e-06
+  },
+  {
+   "key": "A4",
+   "archetype": "Poorly controlled, not on insulin",
+   "source_index": 774,
+   "ehr": {
+    "age": 54.599998474121094,
+    "bmi": 27.799999237060547,
+    "hba1c": 7.0,
+    "glucose": 117.80000305175781,
+    "sbp": 134.0,
+    "dbp": 76.0,
+    "chol_total": 206.1999969482422,
+    "triglycerides": 173.89999389648438,
+    "hdl": 47.5,
+    "ldl": 138.10000610351562,
+    "years_since_dx": 4.599999904632568,
+    "hypertension": 0.0,
+    "ckd": 0.0,
+    "retinopathy": 0.0,
+    "neuropathy": 0.0,
+    "obesity": 0.0,
+    "cvd": 0.0,
+    "metformin_active": 0.0,
+    "insulin_active": 0.0,
+    "prs": 0.12200000137090683,
+    "male": 1.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "blended": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    }
+   },
+   "window": {
+    "episodes": 30,
+    "time_in_range": 0.6820020222446916,
+    "mean_cgm": 168.60617065429688,
+    "weekday_of_first_day": 6
+   },
+   "sim_params": {
+    "si_true": 0.8770427321588457,
+    "bcell": 1.0,
+    "metformin_hgo_reduction": 0.0,
+    "k_gut": 0.0482196645434864,
+    "dawn_amp": 16.7
+   },
+   "resim_mae_mgdl": 2.2751944925403222e-05
+  },
+  {
+   "key": "C1",
+   "archetype": "Well controlled, not on insulin",
+   "source_index": 134,
+   "ehr": {
+    "age": 72.5999984741211,
+    "bmi": 27.299999237060547,
+    "hba1c": 5.300000190734863,
+    "glucose": 64.69999694824219,
+    "sbp": 146.0,
+    "dbp": 93.0,
+    "chol_total": 237.5,
+    "triglycerides": 145.10000610351562,
+    "hdl": 62.70000076293945,
+    "ldl": 145.8000030517578,
+    "years_since_dx": 20.600000381469727,
+    "hypertension": 0.0,
+    "ckd": 0.0,
+    "retinopathy": 0.0,
+    "neuropathy": 0.0,
+    "obesity": 1.0,
+    "cvd": 1.0,
+    "metformin_active": 1.0,
+    "insulin_active": 0.0,
+    "prs": -0.7409999966621399,
+    "male": 1.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.2849653661251068,
+     "fpr_5": 0.22295533120632172,
+     "fpr_10": 0.17278438806533813
+    },
+    "blended": {
+     "fpr_2": 0.3894236385822296,
+     "fpr_5": 0.3153945580124855,
+     "fpr_10": 0.2470710128545761
+    }
+   },
+   "window": {
+    "episodes": 1,
+    "time_in_range": 0.7274135260712442,
+    "mean_cgm": 82.00102996826172,
+    "weekday_of_first_day": 0
+   },
+   "sim_params": {
+    "si_true": 0.5729998687550781,
+    "bcell": 0.488,
+    "metformin_hgo_reduction": 0.15,
+    "k_gut": 0.0335088365291786,
+    "dawn_amp": 4.9
+   },
+   "resim_mae_mgdl": 5.986955329717603e-06
+  },
+  {
+   "key": "C2",
+   "archetype": "Well controlled, not on insulin",
+   "source_index": 158,
+   "ehr": {
+    "age": 54.29999923706055,
+    "bmi": 27.700000762939453,
+    "hba1c": 5.5,
+    "glucose": 71.69999694824219,
+    "sbp": 92.0,
+    "dbp": 61.0,
+    "chol_total": 172.8000030517578,
+    "triglycerides": 120.30000305175781,
+    "hdl": 62.099998474121094,
+    "ldl": 86.5999984741211,
+    "years_since_dx": 15.399999618530273,
+    "hypertension": 1.0,
+    "ckd": 0.0,
+    "retinopathy": 0.0,
+    "neuropathy": 1.0,
+    "obesity": 1.0,
+    "cvd": 0.0,
+    "metformin_active": 1.0,
+    "insulin_active": 0.0,
+    "prs": -0.08399999886751175,
+    "male": 0.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.21405775845050812,
+     "fpr_5": 0.1456373780965805,
+     "fpr_10": 0.11294985562562943
+    },
+    "blended": {
+     "fpr_2": 0.35396983474493027,
+     "fpr_5": 0.2767355814576149,
+     "fpr_10": 0.21715374663472176
+    }
+   },
+   "window": {
+    "episodes": 2,
+    "time_in_range": 0.9913265306122448,
+    "mean_cgm": 117.9346923828125,
+    "weekday_of_first_day": 2
+   },
+   "sim_params": {
+    "si_true": 0.838857053402086,
+    "bcell": 0.646,
+    "metformin_hgo_reduction": 0.15,
+    "k_gut": 0.0279447487955761,
+    "dawn_amp": 22.8
+   },
+   "resim_mae_mgdl": 5.6085132200678345e-06
+  },
+  {
+   "key": "C3",
+   "archetype": "Well controlled, not on insulin",
+   "source_index": 146,
+   "ehr": {
+    "age": 69.5999984741211,
+    "bmi": 27.899999618530273,
+    "hba1c": 5.5,
+    "glucose": 84.4000015258789,
+    "sbp": 119.0,
+    "dbp": 59.0,
+    "chol_total": 201.6999969482422,
+    "triglycerides": 121.0999984741211,
+    "hdl": 76.30000305175781,
+    "ldl": 94.0,
+    "years_since_dx": 16.5,
+    "hypertension": 1.0,
+    "ckd": 0.0,
+    "retinopathy": 0.0,
+    "neuropathy": 0.0,
+    "obesity": 1.0,
+    "cvd": 1.0,
+    "metformin_active": 1.0,
+    "insulin_active": 0.0,
+    "prs": -0.4449999928474426,
+    "male": 1.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.23266367614269257,
+     "fpr_5": 0.15536224842071533,
+     "fpr_10": 0.1135551929473877
+    },
+    "blended": {
+     "fpr_2": 0.3632727935910225,
+     "fpr_5": 0.2815980166196823,
+     "fpr_10": 0.2174564152956009
+    }
+   },
+   "window": {
+    "episodes": 4,
+    "time_in_range": 0.9929399899142713,
+    "mean_cgm": 112.48966217041016,
+    "weekday_of_first_day": 1
+   },
+   "sim_params": {
+    "si_true": 1.007670008089754,
+    "bcell": 0.523,
+    "metformin_hgo_reduction": 0.15,
+    "k_gut": 0.0321781641194771,
+    "dawn_amp": 23.6
+   },
+   "resim_mae_mgdl": 2.963202405226184e-06
+  },
+  {
+   "key": "C4",
+   "archetype": "Well controlled, not on insulin",
+   "source_index": 140,
+   "ehr": {
+    "age": 48.599998474121094,
+    "bmi": 28.200000762939453,
+    "hba1c": 5.599999904632568,
+    "glucose": 88.5,
+    "sbp": 98.0,
+    "dbp": 70.0,
+    "chol_total": 284.20001220703125,
+    "triglycerides": 130.6999969482422,
+    "hdl": 62.79999923706055,
+    "ldl": 195.1999969482422,
+    "years_since_dx": 5.5,
+    "hypertension": 0.0,
+    "ckd": 0.0,
+    "retinopathy": 1.0,
+    "neuropathy": 0.0,
+    "obesity": 1.0,
+    "cvd": 0.0,
+    "metformin_active": 1.0,
+    "insulin_active": 0.0,
+    "prs": -2.630000114440918,
+    "male": 0.0
+   },
+   "thresholds": {
+    "global": {
+     "fpr_2": 0.4938819110393524,
+     "fpr_5": 0.4078337848186493,
+     "fpr_10": 0.3213576376438141
+    },
+    "personal": {
+     "fpr_2": 0.25173136591911316,
+     "fpr_5": 0.1848188191652298,
+     "fpr_10": 0.14686891436576843
+    },
+    "blended": {
+     "fpr_2": 0.3728066384792328,
+     "fpr_5": 0.29632630199193954,
+     "fpr_10": 0.23411327600479126
+    }
+   },
+   "window": {
+    "episodes": 7,
+    "time_in_range": 0.9743194658448896,
+    "mean_cgm": 125.83050537109375,
+    "weekday_of_first_day": 0
+   },
+   "sim_params": {
+    "si_true": 1.145399821884609,
+    "bcell": 0.892,
+    "metformin_hgo_reduction": 0.15,
+    "k_gut": 0.0334751476075199,
+    "dawn_amp": 20.8
+   },
+   "resim_mae_mgdl": 3.0048308872210328e-06
+  }
+ ],
+ "display_days": 7,
+ "sim_days": 9,
+ "warmup_days": 2,
+ "bins_per_day": 288,
+ "group_names": [
+  "Current glucose and its recent trend",
+  "Glucose control over the past day",
+  "Heart rate and HRV",
+  "Physical activity",
+  "Sleep",
+  "Time of day",
+  "Health record (EHR)"
+ ]
+}

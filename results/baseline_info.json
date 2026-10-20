@@ -1,0 +1,26 @@
+{
+  "EHR only": {
+    "n_features": 21,
+    "best_iter": 40
+  },
+  "CGM only": {
+    "n_features": 17,
+    "best_iter": 300
+  },
+  "HR/HRV/steps/sleep only": {
+    "n_features": 16,
+    "best_iter": 242
+  },
+  "CGM + wearables": {
+    "n_features": 30,
+    "best_iter": 297
+  },
+  "CGM + EHR": {
+    "n_features": 38,
+    "best_iter": 151
+  },
+  "Fused (CGM + wearables + EHR)": {
+    "n_features": 51,
+    "best_iter": 146
+  }
+}
