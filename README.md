@@ -2,6 +2,9 @@
 
 **Tailwind / IIM Bodhgaya|  **License:** MIT (data is fully synthetic)
 
+## Links
+**Demo and explanation video (20+ min, unlisted YouTube)--  https://youtu.be/-rRfFOF7g1M
+
 ## Problem
 Predict a *new* glucose excursion (>180 mg/dL, while currently <=180) 2 hours ahead by fusing a static EHR profile with streaming CGM + wearable data.
 
